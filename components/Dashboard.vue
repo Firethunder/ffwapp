@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { getTime } from '../../utils/date'
+import { getTime } from '../utils/date'
 
 const props = defineProps({
   appointments: {

@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue'
-import { getCalendarUrl } from '../../utils/calendar'
+import { getCalendarUrl } from '../utils/calendar'
 
 const icsBaseUrl = 'https://firethunder.github.io/ffwtool/termine.ics'
 

@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, onMounted } from 'vue'
-import { getDay, getShortMonth, getWeekday, getYear, getTime } from '../../utils/date'
+import { getDay, getShortMonth, getWeekday, getYear, getTime } from '../utils/date'
 
 const currentYear = new Date().getFullYear()
 
